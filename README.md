@@ -1,4 +1,4 @@
-# Project Title
+# Is YouTube Riding the Mental Health Wave?
 
 ## Table of Contents 📋
 1. [Abstract](#abstract)
@@ -16,6 +16,12 @@
 
 ## Research Questions ❓
 <!-- - List the specific research questions you plan to address during the project. This helps to outline the scope and focus of your data analysis. -->
+Here are the specific research questions we plan to address :
+- Is mental health a trends on Youtube ?
+- Which topics predominate in the mental health category. 
+- Is there an impact on new content ? Did old chanels (who were not speaking about mental health) start speaking about (i.e followed the trends) ?
+- Can we see an increase (or decrease) in performance (subscribers, views, likes, ...) for channels that speak about mental health ?
+
 
 ## Proposed Additional Datasets 📊
 <!-- - If applicable, provide a list of additional datasets you intend to use. Include details on how you plan to acquire, manage, process, and enrich these datasets. Consider data size and format, and demonstrate that you've familiarized yourself with relevant documentation. -->
