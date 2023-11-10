@@ -28,7 +28,7 @@ Methods and techniques divided by each dataset that we intend to use for our ana
 - ### [Channel Metadata](#channel-metadata-df_channels_entsvgz) [df_channels_en.tsv.gz] : 
 - ### [Time-series Data](#time-series-data-df_timeseries_encsvgz) [df_timeseries_en.csv.gz] : 
 - ### [Comment Table](#comment-table-youtube_commentstsvgz) [youtube_comments.tsv.gz] : 
-Given considerations of project feasibility, including both the size and type of data required, the utilization of this dataset is omitted.
+    Given considerations of project feasibility, including both the size and type of data required, the utilization of this dataset is omitted.
 
 ## Proposed Timeline & Internal Milestones (IM) 📅
 
@@ -38,9 +38,8 @@ Given considerations of project feasibility, including both the size and type of
 | Data Story Context           | Week       | Week      |
 | Data Preprocessing           | Week       | Week      |
 | First Analysis & Results     | Week       | Week      |
-| Team Member Analysis         | Week       | Week      |
 | Comparative Evaluation       | Week       | Week      |
-| Collaborative Dataset Work   | Week       | Week      |
+| Second Analysis & Results    | Week       | Week      |
 | Web Site Implementation      | Week       | Week      |
 | Final Check & Submission     | Week       | Week      |
 
