@@ -18,8 +18,9 @@
 <!-- - List the specific research questions you plan to address during the project. This helps to outline the scope and focus of your data analysis. -->
 Here are the specific research questions we plan to address :
 - Is mental health a trends on Youtube ?
-- Which topics predominate in the mental health category. 
-- Is there an impact on new content ? Did old chanels (who were not speaking about mental health) start speaking about (i.e followed the trends) ?
+- Which topics predominate in the mental health category ? 
+- Is there an impact on new content ? 
+- Did old channels (who were not speaking about mental health) start speaking about (i.e followed the trends) ?
 - Can we see an increase (or decrease) in performance (subscribers, views, likes, ...) for channels that speak about mental health ?
 
 
