@@ -14,6 +14,11 @@
 ## Abstract 📝
 <!-- A brief overview (around 150 words) describing the project's idea and goals. Discuss the motivation behind the project, the story you aim to tell, and why it's significant. -->
 
+In this study, we try to investigate the trend of the mental health on Youtube and how it can influence new content generated as well as new channels creation.
+We use the dataset YouNiverse and we filter it, identifying the mental health related videos as the ones containing, in title, description or tag, some key words like INSERT.
+By then looking at the channels categories of these videos, at the visualization evolution of the channels and the videos and with other methods, we aim to detect the influence that talking about mental health can have. An eventual correlation will then allow us to breakdown the different reasons for this to happen, and will lead us to make several different conclusions about mental health discussion on Youtube.
+
+
 ## Research Questions ❓
 <!-- - List the specific research questions you plan to address during the project. This helps to outline the scope and focus of your data analysis. -->
 Here are the specific research questions we plan to address :
@@ -26,7 +31,7 @@ Here are the specific research questions we plan to address :
 
 ## Proposed Additional Datasets 📊
 <!-- - If applicable, provide a list of additional datasets you intend to use. Include details on how you plan to acquire, manage, process, and enrich these datasets. Consider data size and format, and demonstrate that you've familiarized yourself with relevant documentation. -->
-- Our analysis is well-supported by the existing (huge) dataset, and we find it sufficiently comprehensive for our research questions. Thus, we won't be incorporating additional datasets.
+- Our analysis is well-supported by the existing (huge) dataset, and we find it sufficiently comprehensive for our research questions. Thus, we will not incorporate additional datasets.
 
 ## Methods 🔍
 <!-- - Briefly describe the methods and techniques you intend to use for the data analysis. This could include statistical methods, machine learning algorithms, or any other relevant approaches. -->
