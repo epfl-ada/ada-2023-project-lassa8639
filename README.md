@@ -41,8 +41,8 @@ Methods and techniques divided by each dataset that we intend to use for our ana
 
 **Comparing trends:** To compare trends between different topics, we would like to first select a set of topics representative in their respective categories that we hypothesize:
 
-1. Ephemral trend: Topics that represent a short-term impulse such as `Ice Bucket Challenge`, `Pokémon GO`, and `Black Friday`, etc.
-2. Long-term trend: Topics that reveal a real ongoing social problem including `climate change`, `gender inequality`, and `online data privacy`.
+1. Ephemral trend: Topics that represent a short-term impulse such as `Ice Bucket Challenge`, and `Black Friday`, etc.
+2. Long-term trend: Topics that reveal a real ongoing social problem including `climate change` and `gender inequality`.
 3. Control group: Topics that receive limited attention but increase in video numbers because of the general user growth. Examples are `ancient Babylonia` and `Charlie Chaplin`.
 
 **Predominant subtopics in mental health:** We first categorize the keywords into several subtopic categories [General, Lonely, Depress, Stress, Suicide, Trauma, Disorder]. Then draw a pie chart based on their frequency proportions and track the variation during the years.
