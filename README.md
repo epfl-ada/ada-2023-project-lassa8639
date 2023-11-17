@@ -95,7 +95,7 @@ Overall, processing the channel metadata is an important step in understanding t
 - ### [Time-series Data](#time-series-data-df_timeseries_encsvgz) [df_timeseries_en.csv.gz] : 
 
 
-In this section, our primary objectives are twofold:
+In this section, our primary objectives are two fold:
 
 **Identify Trends in Views and Subscribers for Mental Health Channels** : By analyzing the time-series data, our goal is to detect patterns that signify increased viewership and subscriber growth within mental health-related channels. This exploration provides valuable insights into emerging trends and their dynamic behaviors.
 
