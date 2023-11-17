@@ -101,7 +101,7 @@ In this section, our primary objectives are twofold:
 
 **Identify Trends in Views and Subscribers for Mental Health Channels** : By analyzing the time-series data, our goal is to detect patterns that signify increased viewership and subscriber growth within mental health-related channels. This exploration provides valuable insights into emerging trends and their dynamic behaviors.
 
-**Examine View and Subscriber Distributions**: ßOur analysis involves studying the distribution of views and subscribers from three perspectives:
+**Examine View and Subscriber Distributions**: Our analysis involves studying the distribution of views and subscribers from three perspectives:
 
    - **All Datetimes:** Considering the overall distribution of views and subscribers.
    - **Initial Datetime for Each Channel:** Focusing on a fixed time point, the first datetime for each channel.
