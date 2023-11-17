@@ -44,9 +44,9 @@ The method is based on `snowball keywords matching`. First, we deisgn a comprehe
 
 **Comparing trends**: To compare trends between different topics, we would like to first select a set of topics representative in their respective categories that we hypothesiz:
 
-1. Ephemral trend: Topics that represent a short-term impulse on people posting same kind of videos. Example such as `Ice Bucket Challenge`, `Pokémon GO`, and `Black Friday`, etc.
+1. Ephemral trend: Topics that represent a short-term impulse such as `Ice Bucket Challenge`, `Pokémon GO`, and `Black Friday`, etc.
 2. Long-term trend: Topics that reveal a real ongoing social problem including `climate change`, `gender inequality`, and `online data privacy`.
-3. Control group: Topics that receive limited attention but the numbers of videos increase because of the user growth in YouTube. Examples are `ancient babylonia` and `Charlie Chaplin`
+3. Control group: Topics that receive limited attention but increase in video numbers because of the general user growth. Examples are `ancient babylonia` and `Charlie Chaplin`
 
 <!-- From the resulting plots in the notebook, we discover the plot line pattern for each topic is:
 | Topic                | Topic Type           | Line pattern         |
@@ -72,7 +72,7 @@ The method is based on `snowball keywords matching`. First, we deisgn a comprehe
 *  Real social problems usually have a long-term impact on people's lives, which keeps the conversation going and leads to a steady creation of content.
 *  On the other hand, control group videos may have been faded out from people's focus, yet they increase proportionally together with the rising number of YouTube users. We can notice that their proportion to all videos have a rather constant expectation value in long term. -->
 
-**Predominant subtopics in mental health**: We first categorize the keywords into several subtopics [General, Lonely, Depress, Stress, Suicide, Trauma, Disorder]. Then we count their respective frequency mentioned in the text description of each video record. And draw a pie chart to see the proportion. Also, we track the trend of the variation of the proportion to see how they evolve during the years. However, the trend appears rather random and we couldn't figure out useful conclusion out of this.
+**Predominant subtopics in mental health**: We first categorize the keywords into several subtopic cateogires [General, Lonely, Depress, Stress, Suicide, Trauma, Disorder]. Then draw a pie chart based on their frequency proportions and track the variation during the years.
 
 <!-- | Subtopics                | Keywords           |
 | -------------------- | -------------------- | 
@@ -115,11 +115,12 @@ Overall, processing the channel metadata is an important step in understanding t
 
 ## Organization Within the Team 🤝
 <!-- - List internal milestones for the team, leading up to project Milestone P3. This section helps ensure everyone is on the same page regarding responsibilities and progress. -->
-In the pursuit of enhanced efficiency, task allocation within our team adheres to a systematic approach. Given the existence of three entirely independent datasets, distinct teams have been designated for each dataset: the [Video Metadata](#video-metadata), [Channel Metadata](#channel-metadata), and [Time-series Data](#time-series-data).
+<!-- In the pursuit of enhanced efficiency, task allocation within our team adheres to a systematic approach.  -->
+Given the existence of three entirely independent datasets, distinct teams have been designated for each dataset: the [Video Metadata](#video-metadata), [Channel Metadata](#channel-metadata), and [Time-series Data](#time-series-data). Concurrently, parallel efforts are dedicated to exploring the data story, web site implementation, and the comprehensive contextual framework of the analysis.
 
-Recognizing the challenging nature of the [Video Metadata](#video-metadata), a proportionally augmented team has been assigned to navigate its complexities. Concurrently, parallel efforts are dedicated to exploring the data story, web site implementation, and the comprehensive contextual framework of the analysis.
+<!-- Recognizing the challenging nature of the [Video Metadata](#video-metadata), a proportionally augmented team has been assigned to navigate its complexities. Concurrently, parallel efforts are dedicated to exploring the data story, web site implementation, and the comprehensive contextual framework of the analysis. -->
 
-After we look at the data and get some initial results, we'll compare them. In the next rounds of analysis, we might work together to combine datasets if it makes sense. This way, everyone on the team stays involved and contributes to the analysis.
+<!-- After we look at the data and get some initial results, we'll compare them. In the next rounds of analysis, we might work together to combine datasets if it makes sense. This way, everyone on the team stays involved and contributes to the analysis. -->
 
 ## Questions for TAs ❓
 <!-- - Include any questions you have for the teaching assistants regarding the proposed project. This is an optional section, but it's a good opportunity to seek clarification or guidance. -->
