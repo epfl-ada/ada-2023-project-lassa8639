@@ -83,7 +83,7 @@ Methods and techniques divided by each dataset that we intend to use for our ana
 - ### [Time-series Data](#time-series-data-df_timeseries_encsvgz) [df_timeseries_en.csv.gz] : 
 
 
-In this section, our primary objectives are two fold:
+In this section, our primary objectives are the followings :
 
 **Identify Trends in Views and Subscribers for Mental Health Channels** : By analyzing the time-series data, our goal is to detect patterns that signify increased viewership and subscriber growth within mental health-related channels. This exploration provides valuable insights into emerging trends and their dynamic behaviors.
 
