@@ -85,14 +85,14 @@ The method is based on `snowball keywords matching`. First, we deisgn a comprehe
 | Disorder     | disorder          |  -->
 
 - ### [Channel Metadata](#channel-metadata-df_channels_entsvgz) [df_channels_en.tsv.gz] : 
-Processing the channel metadata is an important step in understanding the context of a video on YouTube. It allows us to gain insights into the creator's content, their audience, and the overall tone of their channel. In this section, we will focus on two main tasks: filtering the channel and analyzing its metadata in the context of mental health.
+<!-- Processing the channel metadata is an important step in understanding the context of a video on YouTube. It allows us to gain insights into the creator's content, their audience, and the overall tone of their channel.  -->
+In this section, we will focus on two main tasks: filtering the channel and analyzing its metadata in the context of mental health.
 
-1. The first task is to filter the channel metadata based on the videos we identified in the previous step. We need to find the corresponding channel of the filtered video metadata. This will give us a better understanding of the subscribers, other videos, and ranking of these relevant channels.
+**Filter the channel metadata**. The step is based on the filtered result from metadata. We find the corresponding channel and dig deeper into understanding of the subscribers, other videos, and ranking of these relevant channels.
 
-2. After filtering the channel metadata, we can move on to the second task, which is to analyze the metadata. This involves looking at the channel's names, categories, and other relevant information to gain insights into the creator's content. We can also analyze the channel's engagement metrics, such as the number of subscribers and views to understand its popularity and reach.
-
-Overall, processing the channel metadata is an important step in understanding the context of a video on YouTube. It allows us to gain insights into the creator's content, their audience, and the overall tone of their channel. By filtering and analyzing the metadata, we can make more informed decisions about the videos we watch and the creators we follow.
-
+**Analyze channel metadata**: This involves looking at the channel's names, categories, and other relevant information to gain insights into the creator's content. We also analyze the channel's engagement metrics, such as the number of subscribers and views to understand its popularity and reach.
+<!-- 
+Overall, processing the channel metadata is an important step in understanding the context of a video on YouTube. It allows us to gain insights into the creator's content, their audience, and the overall tone of their channel. By filtering and analyzing the metadata, we can make more informed decisions about the videos we watch and the creators we follow. -->
 
 
 - ### [Time-series Data](#time-series-data-df_timeseries_encsvgz) [df_timeseries_en.csv.gz] : 
