@@ -95,6 +95,21 @@ Overall, processing the channel metadata is an important step in understanding t
 
 
 - ### [Time-series Data](#time-series-data-df_timeseries_encsvgz) [df_timeseries_en.csv.gz] : 
+
+
+In this section, our primary objectives are twofold:
+
+**Identify Trends in Views and Subscribers for Mental Health Channels** : By analyzing the time-series data, our goal is to detect patterns that signify increased viewership and subscriber growth within mental health-related channels. This exploration provides valuable insights into emerging trends and their dynamic behaviors.
+
+**Examine View and Subscriber Distributions**: Our analysis involves studying the distribution of views and subscribers from three perspectives:
+
+   - **All Datetimes:** Considering the overall distribution of views and subscribers.
+   - **Initial Datetime for Each Channel:** Focusing on a fixed time point, the first datetime for each channel.
+   - **Last Datetime:** Examining the data at the last datetime to understand recent trends.
+
+This multifaceted approach enhances our understanding of viewership and subscription dynamics over time.
+
+
 - ### [Comment Table](#comment-table-youtube_commentstsvgz) [youtube_comments.tsv.gz] : 
     Given considerations of project feasibility, including both the size and type of data required, the utilization of this dataset is omitted.
 
