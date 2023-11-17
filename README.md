@@ -15,7 +15,7 @@
 <!-- A brief overview (around 150 words) describing the project's idea and goals. Discuss the motivation behind the project, the story you aim to tell, and why it's significant. -->
 
 In this study, we try to investigate the trend of the mental health on Youtube and how it can influence new content generated as well as new channels creation.
-We use the dataset YouNiverse and we filter it, identifying the mental health related videos as the ones containing, in title, description or tag, some key words like INSERT.
+We use the dataset YouNiverse and retrieve the mental health related videos by identifying key words like `mental health`, `solitude` in their text descriptions.
 By then looking at the channels categories of these videos, at the visualization evolution of the channels and the videos and with other methods, we aim to detect the influence that talking about mental health can have. An eventual correlation will then allow us to breakdown the different reasons for this to happen, and will lead us to make several different conclusions about mental health discussion on Youtube.
 
 
@@ -37,29 +37,19 @@ Here are the specific research questions we plan to address :
 <!-- - Briefly describe the methods and techniques you intend to use for the data analysis. This could include statistical methods, machine learning algorithms, or any other relevant approaches. -->
 Methods and techniques divided by each dataset that we intend to use for our analysis: 
 
-- ### [Video Filtering]
-To effectively filter relevant videos from a large dataset for mental health-related content, we've established a robust method centered around keyword string matching. We begin by creating a custom keyword list tied to mental health topics. As we parse the dataset in manageable batches, we examine video descriptions, tags, and titles, requiring at least two to match our keywords for a video to be considered relevant. Utilizing pd.DataFrame.str.contains, we identify these matches efficiently.
-
-Upon extracting a subset of videos, we manually review them to discover any prevalent but previously unlisted keywords. These are then added to our keyword list, and the process is repeated to refine our results. Additionally, we apply a secondary filter to remove certain categories, notably Music and Movies, as they often contain misleading keywords like lonely or alone that could result in false positives.
-
-
 - ### [Video Metadata](#video-metadata-yt_metadata_enjsonlgz) [yt_metadata_en.jsonl.gz] :
-We propose the below categorization system for patterns of video numbers related to a certain topic:
 
-1. Sudden Peaks: A sharp increase in the number of videos over a short period might suggest a trend, especially if it's followed by a sharp decline. Trends often correlate with a viral event or a fad that quickly gains and then loses public interest.
-2. Gradual Increase: A steady or sequential increase in the number of videos over a longer period may indicate a growing concern or interest in an issue, suggesting it's an ongoing topic rather than a fleeting trend.
-3. Sustained Levels: If after a rise, the number of videos remains consistently high instead of dropping back down, this could imply that the topic has evolved into an enduring issue.
-4. Periodic Spikes: Repeated spikes could indicate recurring interest in a topic, which could be a trend that comes back in waves, possibly tied to seasonal events or recurring triggers. Examples are Black Friday as shown in our code, election, Olympics etc.
-5. Fluctuating Patterns: If the number of videos varies irregularly without a clear trend or seasonality, this could indicate fluctuating interest in the topic. Such a pattern may be driven by sporadic events or news that intermittently captures public attention. 
+**Video Filtering**: 
+The method is based on `snowball keywords matching`. First, we deisgn a comprehensive keywords list regarding mental health and retrieve videos whose text fields match with the words. Then we iteratively look at the retrieved the result and append new words to the list which we found useful. A more detailed description of the method is explained in the notebook.
 
-And we try to match the above patterns to below Youtube video types:
+**Comparing trends**: To compare trends between different topics, we would like to first select a set of topics representative in their respective categories that we hypothesiz:
 
-1. Ephemral trend; examples in our implementations are Ice Bucket Challenge, Pokémon GO, and Black Friday.
-2. Long-going trend that reveals real social problems; our implementation includes climate change, gender inequality, and online data privacy.
-3. Some old topics that aren't likely to be new trend; numbers of these videos are likely to increase linearly proportional to the total video numbers; examples are ancient babylonia and Charlie Chaplin
+1. Ephemral trend: Topics that represent a short-term impulse on people posting same kind of videos. Example such as `Ice Bucket Challenge`, `Pokémon GO`, and `Black Friday`, etc.
+2. Long-term trend: Topics that reveal a real ongoing social problem including `climate change`, `gender inequality`, and `online data privacy`.
+3. Control group: Topics that receive limited attention but the numbers of videos increase because of the user growth in YouTube. Examples are `ancient babylonia` and `Charlie Chaplin`
 
-As shown by the resulting plots in the notebook, we can discover that for the number of videos under each topic:
-| Topic                | Video type           | Plot pattern         |
+From the resulting plots in the notebook, we discover the plot line pattern for each topic is:
+| Topic                | Topic Type           | Line pattern         |
 | -------------------- | -------------------- | -------------------- |
 | Mental health        | *To be investigated* | Gradual Increase     |
 | Gender inequality    | Long-going trend     | Gradual Increase     |
@@ -67,15 +57,34 @@ As shown by the resulting plots in the notebook, we can discover that for the nu
 | Black Friday         | Ephemral trend       | Periodic Spikes      |
 | Pokémon GO           | Ephemral trend       | Sudden Peaks         |
 | Ice Bucket Challenge | Ephemral trend       | Sudden Peaks         |
-| Ancient Babylon      | Old topic            | Gradual Increase     |
-| Charlie Chaplin      | Old topic            | Fluctuating Patterns |
-| Comedy               | Old topic            | Gradual Increase     |
+| Ancient Babylon      | Control group            | Gradual Increase     |
+| Charlie Chaplin      | Control group            | Fluctuating Patterns |
+| Comedy               | Control group            | Gradual Increase     |
 
-From current level's analysis, videos related to mental health issues are more likely to follow a gradual increase in their video numbers. According to our current analysis, mental health videos can either be categorized into long-going trend or old topic.
-*  Real social problems usually have a long-term impact on people's lives. This consistent impact keeps the conversation going, leading to a steady creation of content.
-*  On the other hand, old topics may have been faded out from people's focus, yet they may increase proportionally together with the rising number of YouTube users. In our analysis for percentage of old topic videos out of all videos, we can notice that their plots have a rather constant expectation value in long term.
 
-More examples under each video type will be involved for more accurate inference.
+<!-- 1. Sudden Peaks: A sharp increase in the number of videos over a short period might suggest a trend, especially if it's followed by a sharp decline. Trends often correlate with a viral event or a fad that quickly gains and then loses public interest.
+2. Gradual Increase: A steady or sequential increase in the number of videos over a longer period may indicate a growing concern or interest in an issue, suggesting it's an ongoing topic rather than a fleeting trend.
+3. Sustained Levels: If after a rise, the number of videos remains consistently high instead of dropping back down, this could imply that the topic has evolved into an enduring issue.
+4. Periodic Spikes: Repeated spikes could indicate recurring interest in a topic, which could be a trend that comes back in waves, possibly tied to seasonal events or recurring triggers. Examples are Black Friday as shown in our code, election, Olympics etc.
+5. Fluctuating Patterns: If the number of videos varies irregularly without a clear trend or seasonality, this could indicate fluctuating interest in the topic. Such a pattern may be driven by sporadic events or news that intermittently captures public attention.  -->
+
+From the result we see: Videos related to mental health issues are likely to follow a gradual increase pattern, which either be categorized into long-term trend or control groups. Notice,
+*  Real social problems usually have a long-term impact on people's lives, which keeps the conversation going and leads to a steady creation of content.
+*  On the other hand, control group videos may have been faded out from people's focus, yet they increase proportionally together with the rising number of YouTube users. We can notice that their proportion to all videos have a rather constant expectation value in long term.
+
+**Predominant subtopics in mental health**: We first categorize the keywords into several subtopics [General, Lonely, Depress, Stress, Suicide, Trauma, Disorder].
+
+<!-- | Subtopics                | Keywords           |
+| -------------------- | -------------------- | 
+| General        | [mental health, mental illness, emo, psycho, psychiatr] | 
+| Lonely    | [solitude, alone, lonely, loneliness]     |
+| Depress      | depress     | 
+| Stress        | stress,  anxiety, anxious      |
+| Suicide          | suicid         |
+| Trauma | trauma, ptsd         |
+| Disorder     | disorder          |  -->
+
+Then we count their respective frequency mentioned in the text description of each video record. And draw a pie chart to see the proportion. Also, we track the trend of the variation of the proportion to see how they evolve during the years. However, the trend appears rather random and we couldn't figure out useful conclusion out of this.
 
 - ### [Channel Metadata](#channel-metadata-df_channels_entsvgz) [df_channels_en.tsv.gz] : 
 Processing the channel metadata is an important step in understanding the context of a video on YouTube. It allows us to gain insights into the creator's content, their audience, and the overall tone of their channel. In this section, we will focus on two main tasks: filtering the channel and analyzing its metadata in the context of mental health.
@@ -117,4 +126,4 @@ After we look at the data and get some initial results, we'll compare them. In t
 
 ## Questions for TAs ❓
 <!-- - Include any questions you have for the teaching assistants regarding the proposed project. This is an optional section, but it's a good opportunity to seek clarification or guidance. -->
-1.
+1. Looking at the plots, result of several our experiment, we sometimes find it hard to draw any determined conclusions (Comparing trend, predominant subtopics ...). How do we proceed in the future to make the best of what we have achieved so far?
