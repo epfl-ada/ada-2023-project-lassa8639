@@ -48,7 +48,7 @@ The method is based on `snowball keywords matching`. First, we deisgn a comprehe
 2. Long-term trend: Topics that reveal a real ongoing social problem including `climate change`, `gender inequality`, and `online data privacy`.
 3. Control group: Topics that receive limited attention but the numbers of videos increase because of the user growth in YouTube. Examples are `ancient babylonia` and `Charlie Chaplin`
 
-From the resulting plots in the notebook, we discover the plot line pattern for each topic is:
+<!-- From the resulting plots in the notebook, we discover the plot line pattern for each topic is:
 | Topic                | Topic Type           | Line pattern         |
 | -------------------- | -------------------- | -------------------- |
 | Mental health        | *To be investigated* | Gradual Increase     |
@@ -59,7 +59,7 @@ From the resulting plots in the notebook, we discover the plot line pattern for 
 | Ice Bucket Challenge | Ephemral trend       | Sudden Peaks         |
 | Ancient Babylon      | Control group            | Gradual Increase     |
 | Charlie Chaplin      | Control group            | Fluctuating Patterns |
-| Comedy               | Control group            | Gradual Increase     |
+| Comedy               | Control group            | Gradual Increase     | -->
 
 
 <!-- 1. Sudden Peaks: A sharp increase in the number of videos over a short period might suggest a trend, especially if it's followed by a sharp decline. Trends often correlate with a viral event or a fad that quickly gains and then loses public interest.
@@ -68,11 +68,11 @@ From the resulting plots in the notebook, we discover the plot line pattern for 
 4. Periodic Spikes: Repeated spikes could indicate recurring interest in a topic, which could be a trend that comes back in waves, possibly tied to seasonal events or recurring triggers. Examples are Black Friday as shown in our code, election, Olympics etc.
 5. Fluctuating Patterns: If the number of videos varies irregularly without a clear trend or seasonality, this could indicate fluctuating interest in the topic. Such a pattern may be driven by sporadic events or news that intermittently captures public attention.  -->
 
-From the result we see: Videos related to mental health issues are likely to follow a gradual increase pattern, which either be categorized into long-term trend or control groups. Notice,
+<!-- From the result we see: Videos related to mental health issues are likely to follow a gradual increase pattern, which either be categorized into long-term trend or control groups. Notice,
 *  Real social problems usually have a long-term impact on people's lives, which keeps the conversation going and leads to a steady creation of content.
-*  On the other hand, control group videos may have been faded out from people's focus, yet they increase proportionally together with the rising number of YouTube users. We can notice that their proportion to all videos have a rather constant expectation value in long term.
+*  On the other hand, control group videos may have been faded out from people's focus, yet they increase proportionally together with the rising number of YouTube users. We can notice that their proportion to all videos have a rather constant expectation value in long term. -->
 
-**Predominant subtopics in mental health**: We first categorize the keywords into several subtopics [General, Lonely, Depress, Stress, Suicide, Trauma, Disorder].
+**Predominant subtopics in mental health**: We first categorize the keywords into several subtopics [General, Lonely, Depress, Stress, Suicide, Trauma, Disorder]. Then we count their respective frequency mentioned in the text description of each video record. And draw a pie chart to see the proportion. Also, we track the trend of the variation of the proportion to see how they evolve during the years. However, the trend appears rather random and we couldn't figure out useful conclusion out of this.
 
 <!-- | Subtopics                | Keywords           |
 | -------------------- | -------------------- | 
@@ -83,8 +83,6 @@ From the result we see: Videos related to mental health issues are likely to fol
 | Suicide          | suicid         |
 | Trauma | trauma, ptsd         |
 | Disorder     | disorder          |  -->
-
-Then we count their respective frequency mentioned in the text description of each video record. And draw a pie chart to see the proportion. Also, we track the trend of the variation of the proportion to see how they evolve during the years. However, the trend appears rather random and we couldn't figure out useful conclusion out of this.
 
 - ### [Channel Metadata](#channel-metadata-df_channels_entsvgz) [df_channels_en.tsv.gz] : 
 Processing the channel metadata is an important step in understanding the context of a video on YouTube. It allows us to gain insights into the creator's content, their audience, and the overall tone of their channel. In this section, we will focus on two main tasks: filtering the channel and analyzing its metadata in the context of mental health.
@@ -105,9 +103,9 @@ Overall, processing the channel metadata is an important step in understanding t
 
 | Task                              | Start Week | End Week  |
 | --------------------------------- | ---------- | --------- |
-| Idea Generation                   | Week 1     | Week 6    |
+<!-- | Idea Generation                   | Week 1     | Week 6    |
 | Data Story Context                | Week 7     | Week 7    |
-| Data Preprocessing                | Week 7     | Week 8    |
+| Data Preprocessing                | Week 7     | Week 8    | -->
 | First Analysis & Results (IM1)    | Week 8     | Week 9    |
 | Comparative Evaluation            | Week 9     | Week 10   |
 | Second Analysis & Results (IM2)   | Week 10    | Week 13   |
