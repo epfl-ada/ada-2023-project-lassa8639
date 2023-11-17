@@ -85,7 +85,7 @@ Methods and techniques divided by each dataset that we intend to use for our ana
 
 In this section, our primary objectives are the followings :
 
-**Identify Trends in Views and Subscribers for Mental Health Channels** : By analyzing the time-series data, our goal is to detect patterns that signify increased viewership and subscriber growth within mental health-related channels. This exploration provides valuable insights into emerging trends and their dynamic behaviors.
+**Identify Trends in Views and Subscribers for Mental Health Channels** : By analyzing the time-series data, our goal is to detect patterns that signify increased views and subscriber growth within mental health-related channels. This exploration provides valuable insights into emerging trends and their dynamic behaviors.
 
 **Examine View and Subscriber Distributions**: Our analysis involves studying the distribution of views and subscribers from three perspectives:
 
@@ -106,7 +106,7 @@ In this section, we will focus on two main tasks: filtering the channel and anal
 Overall, processing the channel metadata is an important step in understanding the context of a video on YouTube. It allows us to gain insights into the creator's content, their audience, and the overall tone of their channel. By filtering and analyzing the metadata, we can make more informed decisions about the videos we watch and the creators we follow. -->
 
 - ### [Comment Table](#comment-table-youtube_commentstsvgz) [youtube_comments.tsv.gz] : 
-    Given considerations of project feasibility, including both the size and type of data required, the utilization of this dataset is omitted.
+Given considerations of project feasibility, including both the size and type of data required, the utilization of this dataset is omitted.
 
 ## Proposed Timeline & Internal Milestones (IM) 📅
 <!-- | Idea Generation                   | Week 1     | Week 6    |
