@@ -100,12 +100,11 @@ Overall, processing the channel metadata is an important step in understanding t
     Given considerations of project feasibility, including both the size and type of data required, the utilization of this dataset is omitted.
 
 ## Proposed Timeline & Internal Milestones (IM) 📅
-
-| Task                              | Start Week | End Week  |
-| --------------------------------- | ---------- | --------- |
 <!-- | Idea Generation                   | Week 1     | Week 6    |
 | Data Story Context                | Week 7     | Week 7    |
 | Data Preprocessing                | Week 7     | Week 8    | -->
+| Task                              | Start Week | End Week  |
+| --------------------------------- | ---------- | --------- |
 | First Analysis & Results (IM1)    | Week 8     | Week 9    |
 | Comparative Evaluation            | Week 9     | Week 10   |
 | Second Analysis & Results (IM2)   | Week 10    | Week 13   |
