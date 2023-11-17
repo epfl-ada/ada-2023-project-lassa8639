@@ -14,19 +14,17 @@
 ## Abstract 📝
 <!-- A brief overview (around 150 words) describing the project's idea and goals. Discuss the motivation behind the project, the story you aim to tell, and why it's significant. -->
 
-In this study, we try to investigate the trend of the mental health on Youtube and how it can influence new content generated as well as new channels creation.
-We use the dataset YouNiverse and retrieve the mental health related videos by identifying key words like `mental health`, `solitude` in their text descriptions.
-By then looking at the channels categories of these videos, at the visualization evolution of the channels and the videos and with other methods, we aim to detect the influence that talking about mental health can have. An eventual correlation will then allow us to breakdown the different reasons for this to happen, and will lead us to make several different conclusions about mental health discussion on Youtube.
+In this study, we try to investigate the trend of mental health on YouTube and how it can influence new content generated as well as new channel creation. We use the dataset YouNiverse and retrieve the mental health-related videos by identifying keywords like `mental health`, and `solitude` in their text descriptions. By then looking at the channel categories of these videos, at the visualization evolution of the channels and the videos, and with other methods, we aim to detect the influence that talking about mental health can have. An eventual correlation will then allow us to break down the different reasons for this to happen and will lead us to make several different conclusions about mental health discussions on YouTube.
 
 
 ## Research Questions ❓
 <!-- - List the specific research questions you plan to address during the project. This helps to outline the scope and focus of your data analysis. -->
 Here are the specific research questions we plan to address :
-- Is mental health a trends on Youtube ?
-- Which topics predominate in the mental health category ? 
-- Is there an impact on new content ? 
-- Did old channels (who were not speaking about mental health) start speaking about (i.e followed the trends) ?
-- Can we see an increase (or decrease) in performance (subscribers, views, likes, ...) for channels that speak about mental health ?
+- Is mental health a trend on YouTube?
+- Which topics predominate in the mental health category?
+- Is there an impact on new content?
+- Did old channels (that were not speaking about mental health) start speaking about (i.e. followed the trends)?
+- Can we see an increase (or decrease) in performance (subscribers, views, likes, ...) for channels that speak about mental health?
 
 
 ## Proposed Additional Datasets 📊
@@ -39,14 +37,15 @@ Methods and techniques divided by each dataset that we intend to use for our ana
 
 - ### [Video Metadata](#video-metadata-yt_metadata_enjsonlgz) [yt_metadata_en.jsonl.gz] :
 
-**Video Filtering**: 
-The method is based on `snowball keywords matching`. First, we deisgn a comprehensive keywords list regarding mental health and retrieve videos whose text fields match with the words. Then we iteratively look at the retrieved the result and append new words to the list which we found useful. A more detailed description of the method is explained in the notebook.
+**Video Filtering:** The method is based on `snowball keyword matching`. First, we design a comprehensive keyword list regarding mental health and retrieve videos whose text fields match the words. Then we iteratively look at the retrieved result and append new words to the list that we found useful. A more detailed description of the method is explained in the notebook.
 
-**Comparing trends**: To compare trends between different topics, we would like to first select a set of topics representative in their respective categories that we hypothesiz:
+**Comparing trends:** To compare trends between different topics, we would like to first select a set of topics representative in their respective categories that we hypothesize:
 
 1. Ephemral trend: Topics that represent a short-term impulse such as `Ice Bucket Challenge`, `Pokémon GO`, and `Black Friday`, etc.
 2. Long-term trend: Topics that reveal a real ongoing social problem including `climate change`, `gender inequality`, and `online data privacy`.
-3. Control group: Topics that receive limited attention but increase in video numbers because of the general user growth. Examples are `ancient babylonia` and `Charlie Chaplin`
+3. Control group: Topics that receive limited attention but increase in video numbers because of the general user growth. Examples are `ancient Babylonia` and `Charlie Chaplin`.
+
+**Predominant subtopics in mental health:** We first categorize the keywords into several subtopic categories [General, Lonely, Depress, Stress, Suicide, Trauma, Disorder]. Then draw a pie chart based on their frequency proportions and track the variation during the years.
 
 <!-- From the resulting plots in the notebook, we discover the plot line pattern for each topic is:
 | Topic                | Topic Type           | Line pattern         |
@@ -111,12 +110,12 @@ Overall, processing the channel metadata is an important step in understanding t
 | Web Site Implementation           | Week 10    | Week 13   |
 | Final Check & Submission (IM3)    | Week 13    | Week 14   |
 
-- Note that between the Week 9 to 11 we'll also have the Homework 2 to work on it. The time will be split between the project and the homework.
+- Note that between Week 9 to 11, we'll also have Homework 2 to work on it. The time will be split between the project and the homework.
 
 ## Organization Within the Team 🤝
 <!-- - List internal milestones for the team, leading up to project Milestone P3. This section helps ensure everyone is on the same page regarding responsibilities and progress. -->
 <!-- In the pursuit of enhanced efficiency, task allocation within our team adheres to a systematic approach.  -->
-Given the existence of three entirely independent datasets, distinct teams have been designated for each dataset: the [Video Metadata](#video-metadata), [Channel Metadata](#channel-metadata), and [Time-series Data](#time-series-data). Concurrently, parallel efforts are dedicated to exploring the data story, web site implementation, and the comprehensive contextual framework of the analysis.
+Given the existence of three entirely independent datasets, distinct teams have been designated for each dataset: the [Video Metadata](#video-metadata), [Channel Metadata](#channel-metadata), and [Time-series Data](#time-series-data). Concurrently, parallel efforts are dedicated to exploring the data story, website implementation, and the comprehensive contextual framework of the analysis.
 
 <!-- Recognizing the challenging nature of the [Video Metadata](#video-metadata), a proportionally augmented team has been assigned to navigate its complexities. Concurrently, parallel efforts are dedicated to exploring the data story, web site implementation, and the comprehensive contextual framework of the analysis. -->
 
@@ -124,4 +123,4 @@ Given the existence of three entirely independent datasets, distinct teams have 
 
 ## Questions for TAs ❓
 <!-- - Include any questions you have for the teaching assistants regarding the proposed project. This is an optional section, but it's a good opportunity to seek clarification or guidance. -->
-1. Looking at the plots, result of several our experiment, we sometimes find it hard to draw any determined conclusions (Comparing trend, predominant subtopics ...). How do we proceed in the future to make the best of what we have achieved so far?
+1. Looking at the plots, and the results of several of our experiments, we sometimes find it hard to draw any determined conclusions (Comparing trend, and predominant subtopics ...). How do we proceed in the future to make the best of what we have achieved so far?
