@@ -78,6 +78,16 @@ From current level's analysis, videos related to mental health issues are more l
 More examples under each video type will be involved for more accurate inference.
 
 - ### [Channel Metadata](#channel-metadata-df_channels_entsvgz) [df_channels_en.tsv.gz] : 
+Processing the channel metadata is an important step in understanding the context of a video on YouTube. It allows us to gain insights into the creator's content, their audience, and the overall tone of their channel. In this section, we will focus on two main tasks: filtering the channel and analyzing its metadata in the context of mental health.
+
+1. The first task is to filter the channel metadata based on the videos we identified in the previous step. We need to find the corresponding channel of the filtered video metadata. This will give us a better understanding of the subscribers, other videos, and ranking of these relevant channels.
+
+2. After filtering the channel metadata, we can move on to the second task, which is to analyze the metadata. This involves looking at the channel's names, categories, and other relevant information to gain insights into the creator's content. We can also analyze the channel's engagement metrics, such as the number of subscribers and views to understand its popularity and reach.
+
+Overall, processing the channel metadata is an important step in understanding the context of a video on YouTube. It allows us to gain insights into the creator's content, their audience, and the overall tone of their channel. By filtering and analyzing the metadata, we can make more informed decisions about the videos we watch and the creators we follow.
+
+
+
 - ### [Time-series Data](#time-series-data-df_timeseries_encsvgz) [df_timeseries_en.csv.gz] : 
 - ### [Comment Table](#comment-table-youtube_commentstsvgz) [youtube_comments.tsv.gz] : 
     Given considerations of project feasibility, including both the size and type of data required, the utilization of this dataset is omitted.
