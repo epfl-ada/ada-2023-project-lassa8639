@@ -71,8 +71,6 @@ Methods and techniques divided by each dataset that we intend to use for our ana
 *  Real social problems usually have a long-term impact on people's lives, which keeps the conversation going and leads to a steady creation of content.
 *  On the other hand, control group videos may have been faded out from people's focus, yet they increase proportionally together with the rising number of YouTube users. We can notice that their proportion to all videos have a rather constant expectation value in long term. -->
 
-**Predominant subtopics in mental health**: We first categorize the keywords into several subtopic cateogires [General, Lonely, Depress, Stress, Suicide, Trauma, Disorder]. Then draw a pie chart based on their frequency proportions and track the variation during the years.
-
 <!-- | Subtopics                | Keywords           |
 | -------------------- | -------------------- | 
 | General        | [mental health, mental illness, emo, psycho, psychiatr] | 
