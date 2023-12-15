@@ -93,11 +93,11 @@ Given the existence of three entirely independent datasets, distinct teams have 
 
 | Team Member        | Work Done   | 
 | --------------     | ----------  | 
-| Liyu Zhang         | ABC         |    
-| Meichen Guo        | ABC         | 
-| Alessio Desogus    | ABC         | 
-| Alessandro D'Urso  | ABC         | 
-| Shaochen Bai       | ABC         | 
+| Liyu Zhang         | Channel metadata analysis, sentiment analysis, visualizations for data story, website development.          |    
+| Meichen Guo        | Channel metadata analysis, textual context for data story development.       | 
+| Alessio Desogus    | Time-series analysis, website creation & development, textual context for data story and README.          | 
+| Alessandro D'Urso  | Time-series analysis, visualizations for data story, textual context for data story.         | 
+| Shaochen Bai       | Video metadata analysis, pre-proccessing data, visualizations for data story, website development.        | 
 
 ## Sources 📚
 
