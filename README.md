@@ -89,6 +89,8 @@ Given considerations of project feasibility, including both the size and type of
 
 ## Organization Within the Team - Work Repartition 🤝
 
+Given the existence of three entirely independent datasets, distinct teams have been designated for each dataset: the [Video Metadata](#video-metadata), [Channel Metadata](#channel-metadata), and [Time-series Data](#time-series-data). Concurrently, parallel efforts are dedicated to exploring the data story, website implementation, and the comprehensive contextual framework of the analysis.
+
 | Team Member        | Work Done   | 
 | --------------     | ----------  | 
 | Liyu Zhang         | ABC         |    
