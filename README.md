@@ -131,6 +131,4 @@ Given the existence of three entirely independent datasets, distinct teams have 
 
 <!-- After we look at the data and get some initial results, we'll compare them. In the next rounds of analysis, we might work together to combine datasets if it makes sense. This way, everyone on the team stays involved and contributes to the analysis. -->
 
-## Questions for TAs ❓
-<!-- - Include any questions you have for the teaching assistants regarding the proposed project. This is an optional section, but it's a good opportunity to seek clarification or guidance. -->
-1. Looking at the plots, and the results of several of our experiments, we sometimes find it hard to draw any determined conclusions (Comparing trend, and predominant subtopics ...). How do we proceed in the future to make the best of what we have achieved so far?
+
