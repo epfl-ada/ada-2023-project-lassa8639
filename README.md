@@ -1,5 +1,5 @@
 # Is YouTube Riding the Mental Health Wave?
-## Data Story
+## Data Story Website
 
 *Authors : Shaochen Bai, Liyu Zhang, Meichen Guo, Alessio Desogus & Alessandro D'Urso*
 
@@ -11,8 +11,8 @@
 3. [Proposed Additional Datasets](#proposed-additional-datasets)
 4. [Methods](#methods)
 5. [Proposed Timeline](#proposed-timeline--internal-milestones-im-)
-6. [Organization Within the Team](#organization-within-the-team)
-7. [Questions for TAs](#questions-for-tas-optional)
+6. [Organization Within the Team - Work Repartition](#organization-within-the-team)
+7. [Sources](#sources)
 
 ---
 
