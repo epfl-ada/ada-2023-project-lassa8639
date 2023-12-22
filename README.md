@@ -38,7 +38,7 @@ Here are the specific research questions we plan to address :
 - Which topics predominate in the mental health category?
 - What is the common sentiment when people talk about mental health, and what does that reveil?
 - Can we see an increase (or decrease) in performance (subscribers, views, likes, ...) for channels that speak about mental health?
-- Did old channels that were not speaking about mental health start more often to speak about it?
+- Did channels that were not speaking about mental health start more often to speak about it?
 
 
 ## Proposed Additional Datasets 📊
