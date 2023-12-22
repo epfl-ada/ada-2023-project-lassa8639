@@ -59,15 +59,11 @@ Methods and techniques divided by each dataset that we intend to use for our ana
 
 In this section, our primary objectives are the followings :
 
-**Identify Trends in Views and Subscribers for Mental Health Channels** : By analyzing the time-series data, our goal is to detect patterns that signify increased views and subscriber growth within mental health-related channels. This exploration provides valuable insights into emerging trends and their dynamic behaviors.
+**Identify Gain in Views and Subscribers for Mental Health Channels**: By analyzing the time-series data, our goal is to detect if mental health video uploading signify increased views and subscribers growth within mental health-related channels. This exploration provides valuable insights into emerging trends and their dynamic behaviors.
 
-**Examine View and Subscriber Distributions**: Our analysis involves studying the distribution of views and subscribers from three perspectives:
+**Select the most symbolic channel**: from the analysis of before, we try to find channels that mostly reflect the abovementioned gainings
 
-   - **All Datetimes:** Considering the overall distribution of views and subscribers.
-   - **Initial Datetime for Each Channel:** Focusing on a fixed time point, the first datetime for each channel.
-   - **Last Datetime:** Examining the data at the last datetime to understand recent trends.
-
-This multifaceted approach enhances our understanding of viewership and subscription dynamics over time.
+**Identify an increasing number of uploads of mental health video**: if really thre is a gain in views when uploading a mental helath video, then, singularly, do channels upload more of it
 
 <!-- - ### [Channel Metadata](#channel-metadata-df_channels_entsvgz) [df_channels_en.tsv.gz] : 
 
