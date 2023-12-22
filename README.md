@@ -3,6 +3,8 @@
 
 *Authors : Shaochen Bai, Liyu Zhang, Meichen Guo, Alessio Desogus & Alessandro D'Urso*
 
+>NOTE: we are using plotly to have interactive plots which cannot be displayed on milestone_P3.ipynb. But you can find the results in our data story listed below.
+
 **Read our full data story [here](https://alessiodesogus.github.io/youniverse/).**
 
 ## Table of Contents 📋
